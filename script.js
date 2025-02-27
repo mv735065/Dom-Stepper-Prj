@@ -1,6 +1,6 @@
 document.documentElement.style.cssText = "padding: 0; margin: 0;";
-document.body.style.cssText = `padding: 0; margin: 0;`;
 
+document.body.style.cssText = `padding: 0; margin: 0;`;
 let header = document.createElement("header");
 header.innerHTML = `<h1>Stepper</h1>`;
 document.body.append(header);
@@ -105,7 +105,7 @@ function changeStatus(count) {
   }
   changeContentInforamtion(count);
   prev.disabled = count === 0;
-  next.disabled = count >= conatinerChilds.length ;
+  next.disabled = count >= conatinerChilds.length;
 }
 
 function changeContentInforamtion(count) {
